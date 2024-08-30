@@ -58,6 +58,9 @@ Store the following secrets in your GitHub repository:
     Deployment Issues: Verify ECS configurations, including task definitions and service settings.
     Integration Tests: Ensure your test endpoints are correctly configured and accessible.
 
+## Snapshots
+
+
 ### 4. **Configure Workflow File**
 
 Ensure you have the GitHub Actions workflow file located at `.github/workflows/ci-cd.yml` with the following content:
