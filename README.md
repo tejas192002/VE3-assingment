@@ -44,8 +44,21 @@ Store the following secrets in your GitHub repository:
    - **`AWS_ACCOUNT_ID`**: Your AWS account ID.
    - **`ECS_CLUSTER`**: The name of your ECS cluster.
    - **`ECS_SERVICE`**: The name of your ECS service.
+3. **Usage**
 
-### 3. **Configure Workflow File**
+    **`Commit and Push`**:
+        Commit your changes and push them to the main branch of your GitHub repository.
+
+    **`Monitor Workflow`**:
+        Navigate to the Actions tab in your GitHub repository to monitor the pipeline’s progress.
+
+    **`Troubleshooting`**
+
+    Pipeline Failures: Check the logs in the GitHub Actions tab for error details.
+    Deployment Issues: Verify ECS configurations, including task definitions and service settings.
+    Integration Tests: Ensure your test endpoints are correctly configured and accessible.
+
+### 4. **Configure Workflow File**
 
 Ensure you have the GitHub Actions workflow file located at `.github/workflows/ci-cd.yml` with the following content:
 
@@ -113,3 +126,5 @@ jobs:
 
 
 **
+
+
